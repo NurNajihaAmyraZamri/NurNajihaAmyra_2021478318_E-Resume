@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right:90px;
+  margin-left: 150px;
+  padding: 50;
+  overflow: hidden;
+  background-color: #468284;
+  top: 0;
+max-width:1000px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(0,0,0);
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #152234;
+  color: white;
+  font-size: 30px;
+}
+img {
+  border-radius: 50%;
+  margin-top: 40px;
+  padding-left:30px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #152234;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+  
+}
+
+.wave#wave1 {
+  z-index:500;
+
+  margin: 10px;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%;
+margin-right: 200px;
+    
+}
+
+.text {
+  font-size: 10px;
+  color: #000;
+        font: Verdana 10px "Fira Sans", serif;
+        margin-left: -100px;
+}
+p.p1{
+    font-family: verdana;
+}
+<th><a href="#https://www.facebook.com/nurnajiha.amyra" class="fa fa-facebook"></a></th>
+<th><a href="#https://www.instagram.com/jiha_amyra/" class="fa fa-instagram"></a></th>
+<th><a href="#https://www.email.com/nurnajihamyra@gmail.com" class="fa fa-envelope"></a></th>
+<th><a href="#https://www.phone.com/010-5563876" class="fa fa-phone"></a></th>
+</style>
+</head>
+<body>
+  <div style="background-image: url('http://blog.akomakoo.com/wp-content/uploads/2021/01/2-Common-Misbeliefs-about-Video-Interviews-Akomakoo.jpeg');
+  background-size: cover; height: 200px; padding-top:50px;">
+    <ul >
+
+        <li><a  class="active" href="index.html">HOME PAGE </a></li>
+         <li><a href="mybio.html">MY BIO</a></li>
+         <li><a href="education.html">EDUCATION</a></li>
+         <li><a href="experience.html">EXPERIENCE</a></li>
+         <li><a href="student.html">STUDENT</a></li>
+         <li><a href="skills.html"; style="margin-left: 180px;">SKILLS</a></li>
+         <li><a href="csm.html">CONTACT & SOCIAL MEDIA</a></li>
+       </ul>
+  </div>
+  
+     
+
+<div class="header">
+    <h1>Hi! I'm Najiha</h1>
+    <p>Welcome to My e-Resume Website.</p> 
+    <p>In this website, there will be an information about Myself, Education, Experience, Skills, and Contact & Social Media</p>
+  </div>
+  <div class="container">
+    <div class="image">
+      <img src="image/myself.jpg.jpeg">
+    </div>
+    <div class="text">
+        <p class=p1 style="font-family: verdana;"><h1>Welcome to my e-resume website. All information about Myself, Education, Experience, Skills, and Contact & Social Media that is needed for
+        this resume have be provided. Just click the required information and you will get the information needed. Thank you.</p></h1>
+        <hr> <br>
+
+      <p><h1>The objective of this website is: <br> 
+        ➢ To introduce myself to employers about my qualifications, educations, experience, and skills. <br>
+        ➢ To grab the attention of employers and recruiters that want to find new workers that are suitable for my qualifications and skills.<br>
+        ➢ To find and apply for a job online and facilitate the interview session by looking at the resume website that is provided.<br>
+        ➢ To show my professionalism, ethics, and attitude in finding and applying for a job.<br>
+        ➢ Giving ideas to university students or prospective employees who are looking for ideas in creating their own resumes.<br></h1></p>
+    </div>
+  </div>
+  <div>
+ <video width="1000" height="400" controls style="margin-left:300px;border: 5px solid #ECECEC;">
+  <source src="image/VIDEO RESUME IMS456_NUR NAJIHA (ELEK A) (2).mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+ 
+</video>
+
+  </div>
+<footer class="footer">
+    <div class="waves">&nbsp;&nbsp;&nbsp;
+ 
+    
+    </div>
+
+    <p>&copy;2021 Nur Najiha Amyra | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

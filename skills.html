@@ -1,0 +1,288 @@
+<style>
+    
+
+    .footer {
+  width: 100%;
+  background: #152234;
+  min-height: 30px;
+  padding: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.graph {
+  margin-bottom:1em;
+  font:normal 100%/150% arial,helvetica,sans-serif;
+  margin-left: 400px;
+}
+.graph caption {
+  font:bold 150%/120% arial,helvetica,sans-serif;
+  padding-bottom:0.33em;
+}
+
+.graph tbody th {
+  text-align:right;
+}
+@supports (display:grid) {
+
+@media (min-width:32em) {
+    
+    .graph {
+      display:block;
+            width:600px;
+
+          
+    
+    }
+
+    .graph caption {
+      display:block;
+    }
+
+    .graph thead {
+      display:none;
+    }
+        .graph tbody {
+      position:relative;
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(2em, 1fr));
+      column-gap:2.5%;
+      align-items:end;
+      height:100%;
+      margin:3em 0 1em 2.8em;
+      padding:0 1em;
+      border-bottom:2px solid rgba(0,0,0,0.5);
+      background:repeating-linear-gradient(
+        180deg,
+        rgba(170,170,170,0.7) 0,
+        rgba(170,170,170,0.7) 1px,
+        transparent 1px,
+        transparent 20%
+      );
+    }
+
+    .graph tbody:before,
+    .graph tbody:after {
+      position:absolute;
+      left:-3.2em;
+      width:2.8em;
+      text-align:right;
+      font:bold 80%/120% arial,helvetica,sans-serif;
+    }
+
+    .graph tbody:before {
+      content:"100%";
+      top:-0.6em;
+    }
+
+    .graph tbody:after {
+      content:"0%";
+      bottom:-0.6em;
+    }
+
+    .graph tr {
+      position:relative;
+      display:block;
+    }
+
+    .graph tr:hover {
+      z-index:999;
+    }
+
+    .graph th,
+    .graph td {
+      display:block;
+      text-align:center;
+    }
+
+    .graph tbody th {
+      position:absolute;
+      top:-3em;
+      left:0;
+      width:100%;
+      font-weight:normal;
+      text-align:center;
+      white-space:nowrap;
+      text-indent:0;
+      transform:rotate(-45deg);
+    }
+
+    .graph tbody th:after {
+      content:"";
+    }
+
+    .graph td {
+      width:100%;
+      height:100%;
+      background:#F63;
+      border-radius:0.5em 0.5em 0 0;
+      transition:background 0.5s;
+    }
+
+    .graph tr:hover td {
+      opacity:0.7;
+    }
+
+    .graph td span {
+      overflow:hidden;
+      position:absolute;
+      left:50%;
+      top:50%;
+      width:0;
+      padding:0.5em 0;
+      margin:-1em 0 0;
+      font:normal 85%/120% arial,helvetica,sans-serif;
+/*      background:white; */
+/*      box-shadow:0 0 0.25em rgba(0,0,0,0.6); */
+      font-weight:bold;
+      opacity:0;
+      transition:opacity 0.5s;
+      color:white;
+    }
+
+    .toggleGraph:checked + table td span,
+    .graph tr:hover td span {
+      width:4em;
+      margin-left:-2em; /* 1/2 the declared width */
+      opacity:1;
+    }
+
+
+}
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #152234;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+}
+ul {
+  list-style-type: none;
+  margin-right:90px;
+  margin-left: 150px;
+  padding: 50;
+  overflow: hidden;
+  background-color: #468284;
+  top: 0;
+width:900px;
+height: 50px;
+font-size: 28px;
+}
+
+li {
+  float: left;
+  font-size: 28px;
+  margin-top: -16px ;
+   padding: 1px -10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+
+}
+
+
+.active {
+  background-color: rgb(0,0,0);
+}
+</style>
+<div style="background-image: url('http://blog.akomakoo.com/wp-content/uploads/2021/01/2-Common-Misbeliefs-about-Video-Interviews-Akomakoo.jpeg');
+  background-size: cover; height: 200px; padding-top:50px;">
+    <ul >
+
+        <li><a  href="index.html">HOME PAGE </a></li>
+         <li><a  href="mybio.html">MY BIO</a></li>
+         <li><a href="education.html">EDUCATION</a></li>
+         <li><a href="experience.html">EXPERIENCE</a></li>
+         <li><a  href="student.html">STUDENT</a></li>
+         <li><a class="active" href="skills.html"; style="margin-left: 180px;">SKILLS</a></li>
+         <li><a href="csm.html">CONTACT & SOCIAL MEDIA</a></li>
+       </ul>
+  </div>
+
+   <div class="header">
+       <h1>My Skills</h1>
+    
+   </div>
+   <div style="background-image: url('https://img.freepik.com/free-photo/blur-modern-office-background_36268-1.jpg?size=626&ext=jpg');
+  background-size: cover; padding-top:50px;">
+   <div >
+   <div style="width: 1000px;height:200px; background:gray; margin:10px; margin-left: 150px;"><h1 style="margin-left: 50px;"><center>I have skills in LEADERSHIP since I have a few experince in some position before this. Using my experince in position before, i improve my leadership skills and i will use it in the future.</h1></div></center>
+   <div style="width: 600px; float:left; height:300px; background:yellow; margin:10px ;margin-left: 50px;">
+       <h2><center>I have LANGUAGE skills for a few language such as Malay language, English Language and Germany language. I am fluent in Malay language since it was a language that i practicing since childhood while English langaue i'm not skilled but just mastering what I'm supposed to be and Germany language i know basic part for that language.</h2></center>
+       </div>
+       <div style="width: 600px; float:left; height:300px; background:grey; margin:10px;">
+       <h2><center>I have skills in EDITING VIDEOS using a few software and app such as Inshot, Capcut and Adobe Premiere Pro. It just a basic knowledge in editing videos and know i still learn how to improve my skills in edit videos.</h2></center>
+       </div>
+       <div style="width: 600px; float:left; height:300px; background:yellow; margin:10px ;margin-left: 50px;">
+           <h2><center>I like to WRITING. Sometimes i have ideas to write some story. I know format in writing since i have experience in be a secretary before. Writing also one of my hobbies. I still learn in improving my writing skills.</h2></center>
+           </div>
+           <div style="width: 600px; float:left; height:300px; background:gray; margin:10px">
+           <h2><center>I can MAKE A POSTER. I have a basic knowledge in make a poster. I use some software and app such as powerpoint, canva and word. I still learn how to improve to make a good poster.</h2></center>
+           </div>
+           </div>
+           <div>
+           </div>
+<table class="graph">
+
+    <thead>
+        
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Percent</th>
+    </tr>
+  </thead><tbody>
+    <tr style="height:90%">
+      <th scope="row">Leadership</th>
+      <td><span>50%</span></td>
+    </tr>
+    <tr style="height:20%">
+      <th scope="row">Language</th>
+      <td><span>20%</span></td>
+    </tr>
+    <tr style="height:20%">
+      <th scope="row">Editing Videos</th>
+      <td><span>20%</span></td>
+    </tr>
+    <tr style="height:30%">
+      <th scope="row">Writing</th>
+      <td><span>30%</span></td>
+    </tr>
+    <tr style="height:50%">
+      <th scope="row">Make a poster</th>
+      <td><span>50%</span></td>
+    </tr>
+    
+    
+    
+        
+    </tbody>
+</table>
+</div>
+<div>
+    <footer class="footer">
+        <div class="waves">&nbsp;&nbsp;&nbsp;
+          <div class="wave" id="wave1"></div>
+        
+        </div>
+    
+        <p>&copy;2021 Nur Najiha Amyra | All Rights Reserved</p>
+      </footer>
+    </div>

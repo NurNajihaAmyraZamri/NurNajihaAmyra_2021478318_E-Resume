@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right:90px;
+  margin-left: 150px;
+  padding: 50;
+  overflow: hidden;
+  background-color: #468284;
+  top: 0;
+max-width:1000px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(0,0,0);
+}
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background: #152234;
+  min-height: 30px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+  
+}
+
+.wave#wave1 {
+  z-index:500;
+  margin : 10px;
+  animation: animateWaves 2s linear infinite;
+}
+
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+img {
+  border-radius: 50%;
+  margin-left: 560px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+</style>
+</head>
+<body>
+
+  <div style="background-image: url('http://blog.akomakoo.com/wp-content/uploads/2021/01/2-Common-Misbeliefs-about-Video-Interviews-Akomakoo.jpeg');
+  background-size: cover; height: 200px; padding-top:50px;">
+    <ul >
+
+        <li><a  href="index.html">HOME PAGE </a></li>
+         <li><a  href="mybio.html">MY BIO</a></li>
+         <li><a href="education.html">EDUCATION</a></li>
+         <li><a href="experience.html">EXPERIENCE</a></li>
+         <li><a class= "active" href="student.html">STUDENT</a></li>
+         <li><a href="skills.html"; style="margin-left: 180px;">SKILLS</a></li>
+         <li><a href="csm.html">CONTACT & SOCIAL MEDIA</a></li>
+       </ul>
+  </div>
+<div style="background-image: url('https://media.istockphoto.com/photos/abstract-blurred-office-interior-background-picture-id1263838446?k=20&m=1263838446&s=612x612&w=0&h=tytQ_XDHoSiBDzVNlAX9L0g4EkFHyLpoKq3grDu0zDA=');
+  background-size: cover; padding-top:50px;">
+<div>
+    <img src="image/myself.jpg.jpeg" alt="Avatar" style="width:300px">
+    </div>
+    <div class="clearfix">
+    <div class="box" 
+          style="width: 600px;height: 500px;
+                 padding: 10px; border:3px dashed indigo; ; margin-left:60px; 
+                 background-color:white;background-image: url('https://wallpaperaccess.com/full/1393189.jpg');
+  background-size: cover;  padding-top:50px; ">
+               <p>TITLE: E-RESUME WEBSITE</p> 
+                 <p>NAME: NUR NAJIHA AMYRA BINTI ZAMRI</p> 
+                 <p>STUDENT ID : 2021478318</p> 
+                 <p>GROUP: ELEK C</p> 
+                 <p>COURSE CODE: IMS456</p> 
+                 <p>COURSE NAME: BASIC WEB DESIGN AND CONTENT MANAGEMENT</p> 
+</div>
+
+<div class="box" style="width: 600px;height: 500px;
+       padding: 10px; border:3px dashed indigo; ; margin-left:30px; background-image: url('https://wallpaperaccess.com/full/1393189.jpg');
+  background-size: cover;  padding-top:50px; ">
+          <p>PROGRAME CODE:IM244</p> 
+          <p>FACULTY: INFORMATION MANAGEMENT </p> 
+          <p>SUBMISSION DATE : 16 DECEMBER 2021</p> 
+          <p>PUBLISHED URL: </p> 
+         
+</div>
+</div>
+</div>
+
+<div>
+<footer class="footer">
+    
+      
+   
+
+    <p>&copy;2021 Nur Najiha Amyra | All Rights Reserved</p>
+  </footer>
+</div>
+</body>
+</html>
